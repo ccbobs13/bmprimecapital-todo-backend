@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 
 db.MONGOOSE.connect(db.URL)
-    .then(() => console.log("Connected to database"))
+    .then(() => console.log("Connected to remote database"))
     .catch((err) => {
         console.log("Error : Cannot connect to database ", err.message);
         process.exit();
