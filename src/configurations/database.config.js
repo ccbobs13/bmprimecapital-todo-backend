@@ -1,0 +1,1 @@
+exports.DB_HOST = 'mongodb://localhost:27017/payment_api_db';
